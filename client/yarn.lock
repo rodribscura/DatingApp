@@ -289,6 +289,15 @@
     vite "5.4.6"
     watchpack "2.4.1"
 
+"@angular/cdk@^19.0.4":
+  version "19.0.4"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-19.0.4.tgz#2728efdf11f0871ed4382da7f604834f08539b27"
+  integrity sha512-P8V1n6AFFjBUJG3YRgw8DiiNDWPZVrwQ42wbwgZxd4s2TQAuNFg3YY8h/DSMVxt2sXpavrshZsoLtP9yLKZjHA==
+  dependencies:
+    tslib "^2.3.0"
+  optionalDependencies:
+    parse5 "^7.1.2"
+
 "@angular/cli@^18.1.4":
   version "18.2.9"
   resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-18.2.9.tgz#d69d01fa32df26ee227abf749dbc78f265b50309"
@@ -5546,6 +5555,13 @@ neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
+ng-gallery@^12.0.0:
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/ng-gallery/-/ng-gallery-12.0.0.tgz#10375819688e248d0fa45e6546d27fecca559d47"
+  integrity sha512-E5cy0XackXprtxnv3V47KMTT//pDx/hzd4f8Can7wUptkNNHoRyqHt5R+nI8czI/lxI8pQqdgxBASYeG7kri4A==
+  dependencies:
+    tslib "^2.3.1"
+
 ngx-bootstrap@^18.1.1:
   version "18.1.2"
   resolved "https://registry.yarnpkg.com/ngx-bootstrap/-/ngx-bootstrap-18.1.2.tgz#d05060f4b2fee59a7a3683343246f7f49f9b9035"
@@ -5906,6 +5922,13 @@ parse5@^7.0.0:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-7.2.0.tgz#8a0591ce9b7c5e2027173ab737d4d3fc3d826fab"
   integrity sha512-ZkDsAOcxsUMZ4Lz5fVciOehNcJ+Gb8gTzcA4yl3wnc273BAybYWrQ+Ks/OjCjSEpjvQkDSeZbybK9qj2VHHdGA==
+  dependencies:
+    entities "^4.5.0"
+
+parse5@^7.1.2:
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/parse5/-/parse5-7.2.1.tgz#8928f55915e6125f430cc44309765bf17556a33a"
+  integrity sha512-BuBYQYlv1ckiPdQi/ohiivi9Sagc9JG+Ozs0r7b/0iK3sKmrb0b9FdWdBbOdx6hBCM/F9Ir82ofnBhtZOjCRPQ==
   dependencies:
     entities "^4.5.0"
 
@@ -7052,6 +7075,11 @@ tree-kill@1.2.2:
   resolved "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.2.tgz#4ca09a9092c88b73a7cdc5e8a01b507b0790a0cc"
   integrity sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==
 
+tslib@2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
+  integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
+
 tslib@2.6.3:
   version "2.6.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.3.tgz#0438f810ad7a9edcde7a241c3d80db693c8cbfe0"
@@ -7061,6 +7089,11 @@ tslib@^2.0.0, tslib@^2.1.0, tslib@^2.3.0:
   version "2.8.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.0.tgz#d124c86c3c05a40a91e6fdea4021bd31d377971b"
   integrity sha512-jWVzBLplnCmoaTr13V9dYbiQ99wvZRd0vNWaDRg+aVYRcjDF3nDksxFDE/+fkXnKhpnUUkmx5pK/v8mCtLVqZA==
+
+tslib@^2.3.1:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
+  integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
 tuf-js@^2.2.1:
   version "2.2.1"
@@ -7090,9 +7123,9 @@ typed-assert@^1.0.8:
   integrity sha512-KNNZtayBCtmnNmbo5mG47p1XsCyrx6iVqomjcZnec/1Y5GGARaxPs6r49RnSPeUP3YjNYiU9sQHAtY4BBvnZwg==
 
 typescript@5.4.0:
-  version "5.4.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.5.tgz#42ccef2c571fdbd0f6718b1d1f5e6e5ef006f611"
-  integrity sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==
+  version "5.8.0-dev.20241224"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.8.0-dev.20241224.tgz#14a93ecba1616db0c5bc857cf2756ee8d92d33a9"
+  integrity sha512-YhptMBbAIXORdaVlzNlAltqox013egasFrljDO1249CWdYX/iWwsLe+EkXi/fUHa9SVhmo9BzGCWOgdq0u1aTw==
 
 typescript@~5.5.2:
   version "5.5.4"
