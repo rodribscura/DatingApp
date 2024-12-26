@@ -5569,6 +5569,13 @@ ngx-bootstrap@^18.1.1:
   dependencies:
     tslib "^2.3.0"
 
+ngx-spinner@^17.0.0:
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/ngx-spinner/-/ngx-spinner-17.0.0.tgz#b3e1d54bb4c4e3cf6f949ef8dd1927dfa1e9058d"
+  integrity sha512-VWDSvLlCnaWqu0W1L+ybQIRHTbd+GffkX1sWs++iMPXMGVJ2ZCuzW32FHnu+p0regMUHU8r1/rvUcFD0YooJxQ==
+  dependencies:
+    tslib "^2.3.0"
+
 ngx-toastr@^19.0.0:
   version "19.0.0"
   resolved "https://registry.yarnpkg.com/ngx-toastr/-/ngx-toastr-19.0.0.tgz#51ebb9cb8f8b2f43704d45b560f6d8997f556016"
@@ -7123,9 +7130,9 @@ typed-assert@^1.0.8:
   integrity sha512-KNNZtayBCtmnNmbo5mG47p1XsCyrx6iVqomjcZnec/1Y5GGARaxPs6r49RnSPeUP3YjNYiU9sQHAtY4BBvnZwg==
 
 typescript@5.4.0:
-  version "5.8.0-dev.20241224"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.8.0-dev.20241224.tgz#14a93ecba1616db0c5bc857cf2756ee8d92d33a9"
-  integrity sha512-YhptMBbAIXORdaVlzNlAltqox013egasFrljDO1249CWdYX/iWwsLe+EkXi/fUHa9SVhmo9BzGCWOgdq0u1aTw==
+  version "5.8.0-dev.20241226"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.8.0-dev.20241226.tgz#c8da564ae7a501ec2783f1ff44d961aba282a34a"
+  integrity sha512-iCURPPeEk/3s4iAKjDRXeu43qXtZy+EdsYSKkBIP2txhkLg78It2J9AOjJCfhiUNUIKuzgHC7P0tgtEI7p+xrw==
 
 typescript@~5.5.2:
   version "5.5.4"
