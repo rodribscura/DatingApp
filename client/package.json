@@ -23,6 +23,7 @@
     "bootswatch": "^5.3.3",
     "font-awesome": "^4.7.0",
     "ng-gallery": "^12.0.0",
+    "ng2-file-upload": "^7.0.1",
     "ngx-bootstrap": "^18.1.1",
     "ngx-spinner": "^17.0.0",
     "ngx-toastr": "^19.0.0",
@@ -38,6 +39,12 @@
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
     "typescript": "~5.5.2"
+  },
+  "overrides": {
+    "ng2-file-upload": {
+      "@angular/common": "$@angular/common",
+      "@angular/core": "$@angular/core"
+    }
   },
   "resolutions": {
     "@angular-devkit/build-angular": "18.1.4",

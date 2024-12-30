@@ -5562,6 +5562,13 @@ ng-gallery@^12.0.0:
   dependencies:
     tslib "^2.3.1"
 
+ng2-file-upload@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/ng2-file-upload/-/ng2-file-upload-7.0.1.tgz#5f9f39c1fe245d969284cfd63a479b44bf48fa97"
+  integrity sha512-qqJRzdRehYn6IQyr49qzW4Z3FYYr2ehq/vcn2K933Xf4kxJwhkzWObzJMEDYzhORoTndt+BYfVBNKmN4wjZkyw==
+  dependencies:
+    tslib "^2.3.0"
+
 ngx-bootstrap@^18.1.1:
   version "18.1.2"
   resolved "https://registry.yarnpkg.com/ngx-bootstrap/-/ngx-bootstrap-18.1.2.tgz#d05060f4b2fee59a7a3683343246f7f49f9b9035"
@@ -7130,9 +7137,9 @@ typed-assert@^1.0.8:
   integrity sha512-KNNZtayBCtmnNmbo5mG47p1XsCyrx6iVqomjcZnec/1Y5GGARaxPs6r49RnSPeUP3YjNYiU9sQHAtY4BBvnZwg==
 
 typescript@5.4.0:
-  version "5.8.0-dev.20241226"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.8.0-dev.20241226.tgz#c8da564ae7a501ec2783f1ff44d961aba282a34a"
-  integrity sha512-iCURPPeEk/3s4iAKjDRXeu43qXtZy+EdsYSKkBIP2txhkLg78It2J9AOjJCfhiUNUIKuzgHC7P0tgtEI7p+xrw==
+  version "5.8.0-dev.20241229"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.8.0-dev.20241229.tgz#d16e5ad155edfc258a522473420cb4baf4bed254"
+  integrity sha512-FM/uJa1H8qasChw1XfjuLeVVHdM+wzoGkRApmjsY8wKT6NnESk1T9RgE9FA945uQ538t0qXqP7z9H4eVKKxN8w==
 
 typescript@~5.5.2:
   version "5.5.4"
